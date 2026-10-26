@@ -1,0 +1,11 @@
+.venv/
+data/
+*.keras
+*.h5
+*.joblib
+
+# Trained models
+saved_models/*.keras
+
+# Keep model metadata in Git
+!saved_models/model_metadata.json
